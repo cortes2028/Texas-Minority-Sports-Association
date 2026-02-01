@@ -286,19 +286,14 @@
       align-items:flex-start;
     }
     .avatar{
-      width: 52px;
-      height: 52px;
-      border-radius: 16px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-weight: 800;
-      color: var(--burnt);
-      flex: 0 0 auto;
-      overflow:hidden;
-    }
+  width:64px;
+  height:64px;
+  border-radius:18px;
+  object-fit:cover;
+  border:1px solid var(--border);
+  flex: 0 0 auto;
+}
+
     .person h4{
       margin:0;
       font-size: 15px;
@@ -494,7 +489,7 @@
 <div class="bodGrid">
 
   <div class="person">
-    <div class="avatar">AC</div>
+    <img class="avatar" src="images/aristoteles.jpg">
     <div>
       <h4>Aristoteles Cortes-Loera</h4>
       <div class="role">Co-Founder & President</div>
@@ -503,7 +498,7 @@
   </div>
 
   <div class="person">
-    <div class="avatar">OM</div>
+    <img class="avatar" src="images/ollivia.jpg">
     <div>
       <h4>Ollivia Mayberry</h4>
       <div class="role">Co-Founder & Social Media Director</div>
@@ -512,7 +507,7 @@
   </div>
 
   <div class="person">
-    <div class="avatar">LP</div>
+    <img class="avatar" src="images/landon.jpg">
     <div>
       <h4>Landon Pinales</h4>
       <div class="role">Director of Operations</div>
@@ -521,7 +516,7 @@
   </div>
 
   <div class="person">
-    <div class="avatar">LPH</div>
+    <img class="avatar" src="images/lauren.jpg">
     <div>
       <h4>Lauren Pham</h4>
       <div class="role">Marketing Director</div>
@@ -530,7 +525,7 @@
   </div>
 
   <div class="person">
-    <div class="avatar">EE</div>
+    <img class="avatar" src="images/emily.jpg">
     <div>
       <h4>Emily Escareno</h4>
       <div class="role">Public Relations Director</div>
@@ -539,7 +534,6 @@
   </div>
 
 </div>
-
    
   </section>
 
@@ -555,7 +549,7 @@
         <p>Get updates on events, speakers, opportunities, and leadership openings.</p>
         <div class="ctaRow">
           <!-- Replace with your real membership form link -->
-          <a class="btn btnPrimary" href="https://docs.google.com/forms/" target="_blank" rel="noopener">Join Form</a>
+          <a class="btn btnPrimary" href="https://forms.gle/7NCk5fK8JxF6svAE7" target="_blank" rel="noopener">Join Form</a>
           <a class="btn btnGhost" href="#contact">Questions?</a>
         </div>
       </div>
