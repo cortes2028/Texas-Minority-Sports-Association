@@ -404,6 +404,13 @@
   width:100%;
   object-fit:contain;
 }
+/* Wizards logo has massive transparent padding – force scale */
+
+.logoCard--wizards img{
+  max-height: 90px;
+  transform: scale(1.5);
+  transform-origin: center;
+}
 
 
     /* Smooth scroll */
@@ -555,8 +562,8 @@
       <img src="images/Texas_Rangers_logo.svg" alt="Texas Rangers">
     </div>
     
-    <div class="logoCard">
-      <img src="images/washington-----wizards.png" alt="Washington Wizards">
+    <div class="logoCard logoCard--wizards">
+  <img src="images/washington-----wizards.png" alt="Washington Wizards">
     </div>
 
     <div class="logoCard">
